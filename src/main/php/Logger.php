@@ -46,7 +46,7 @@ class Logger {
 	 * the appenders of their ancestors by default.
 	 * @var boolean
 	 */
-	private $additive = true;
+	private $additive = false;
 	
 	/** 
 	 * The Logger's fully qualified class name.
